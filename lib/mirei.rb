@@ -22,7 +22,7 @@ module Mirei
 
     def find_regulation(number)
       # OPTIMIZE: Yaml lazy load.
-      @regulation_list ||= YAML.load_file('../config/settings.yml')
+      @regulation_list ||= YAML.load_file(File.expand_path('../../config/settings.yml', __FILE__))
 
       # TODO: Error handling.
       @regulation_list.dig('regulations', number)
