@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{provide the paprika private academy regulations of the animation "PriPara".}
   spec.homepage      = "http://pripara.jp"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
