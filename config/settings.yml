@@ -3,3 +3,11 @@ regulations:
     content: "廊下を走ってはならない"
     violator: "真中らぁら"
     episode: "1"
+  "3141":
+    content: "違反を注意された時言い訳してはならない"
+    violator: "真中らぁら"
+    episode: "2"
+  "4953":
+    content: "校内でむやみに騒音を発してはならない"
+    violator: "真中らぁら"
+    episode: "2"
