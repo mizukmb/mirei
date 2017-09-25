@@ -3,7 +3,7 @@ require 'yaml'
 
 module Mirei
   def self.regulation(number)
-    Mirei::Regulation.new(number)
+    Mirei::Regulation.new(number.to_s)
   end
 
   class Regulation
